@@ -1,4 +1,4 @@
-public class exp194 {
+public class exp195 {
     public static boolean isSafe(char board[][],int row,int col){//print only 1 solution of nQueens
         //vertically up
         for(int i=row-1; i>=0;i--){
