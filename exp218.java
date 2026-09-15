@@ -9,7 +9,7 @@ public class exp218 {
                 return true;//cycle exist
             }
         }
-        return false;//cycle doesnt exist
+        return false; //cycle doesnt exist
     }
 
 public static void main(String args[]){

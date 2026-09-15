@@ -223,7 +223,7 @@ public class exp217 {//linked list
                 return false;
             }
             left = left.next;
-            right= right.next;
+            right = right.next;
         }
         return true;
     }
