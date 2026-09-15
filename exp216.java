@@ -1,6 +1,4 @@
-import org.w3c.dom.Node;
-
-public class exp216 {//linked list
+public class exp216 { //linked list
     public static class Node{
         int data;
         Node next;
