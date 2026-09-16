@@ -23,7 +23,7 @@ public class exp212 {
             lp = (lp+1)%n;
         }else{
             //case3
-            rp = (n+rp-1)%n;
+            rp = (n+rp-1) % n;
         }
     }
     return false;
