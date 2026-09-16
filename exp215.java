@@ -17,7 +17,7 @@ public class exp215 {
         //step1 - create new Node
         Node newNode = new Node(data);
         if(head == null){
-            head=tail = newNode;
+            head = tail = newNode;
             return ;
         }
 
