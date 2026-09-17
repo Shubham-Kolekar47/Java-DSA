@@ -4,7 +4,7 @@ public class exp187 {
         int i = low-1;
 
         for(int j=low; j<high;j++){
-            if(arr[j]<pivot){
+            if(arr[j] < pivot){
                 i++;
                 //swap
                 int temp = arr[i];
