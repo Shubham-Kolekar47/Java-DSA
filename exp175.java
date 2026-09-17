@@ -1,7 +1,7 @@
 public class exp175 {
     public static int calSum(int n){
         if(n == 1){
-            return 1;
+            return 1 ;
         }
         int Snm1 = calSum(n-1);
         int Sn = n + Snm1;
