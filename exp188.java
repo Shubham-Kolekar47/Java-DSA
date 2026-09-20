@@ -1,6 +1,6 @@
 public class exp188 {
     public static int search(int arr[],int tar,int si,int ei){
-        if(si>ei){
+        if(si > ei){
             return -1;
         }
 
