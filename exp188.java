@@ -13,7 +13,7 @@ public class exp188 {
         }
 
         //mid on L1
-        if(arr[si]<= arr[mid]){
+        if(arr[si] <= arr[mid]){
             //case a:left
             if(arr[si]<= tar && tar <= arr[mid]){
                 return search(arr,tar,si,mid-1);
