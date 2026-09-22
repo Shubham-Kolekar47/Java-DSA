@@ -25,7 +25,7 @@ public class exp188 {
         //mid on l2
         else{
             //case c: right
-            if(arr[mid]<= tar && tar <= arr[ei]){
+            if(arr[mid] <= tar && tar <= arr[ei]){
                 return search(arr, tar, mid+1, ei);
             }else{
                 //case d:left
