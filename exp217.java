@@ -63,7 +63,7 @@ public class exp217 {//linked list
         Node temp = head;
         int i=0;
 
-        while (i<idx-1) {
+        while (i < idx-1) {
             temp = temp.next;
             i++;
         }
