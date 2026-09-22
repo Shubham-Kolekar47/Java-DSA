@@ -2,7 +2,7 @@ public class exp162 {
     public static void main(String args[]){
         dog d1 = new dog();
         d1.eat();
-        d1.legs=4;
+        d1.legs =4;
         System.out.println(d1.legs);
     }
 }
