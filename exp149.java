@@ -18,7 +18,7 @@ public class exp149 {
         // }
         n = clearIthBit(n,i);
         int BitMask = newBit<<i;
-        return n| BitMask;
+        return n | BitMask;
     }
     public static void main(String[] args) {
         System.out.println(updateIthBit(10, 2, 1));
