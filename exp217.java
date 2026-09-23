@@ -54,7 +54,7 @@ public class exp217 {//linked list
     }
 
     public void add(int idx,int data){
-        if(idx ==0){
+        if(idx == 0){
             addFirst(data);
             return;
         }
