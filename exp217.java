@@ -401,7 +401,7 @@ public class exp217 {//linked list
     // System.out.println(isCycle());
     // removeCycle();
     // System.out.println(isCycle());
-    LinkedList ll = new LinkedList();
+    exp217 ll = new exp217();
     ll.addLast(1);
     ll.addLast(2);
     ll.addLast(3);
