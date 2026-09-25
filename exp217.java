@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+
 public class exp217 {//linked list
     public static class Node{
         int data;
@@ -323,6 +323,45 @@ public class exp217 {//linked list
         //merge
         return merge(left,right);
     }
+    public static void zigZag(){
+        //fnd mid
+        Node slow = head;
+        Node fast = head.next;
+        while(fast !=null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        Node mid = slow;
+
+        //reverse 2nd half
+        Node curr = mid.next;
+        mid.next = null;
+        Node prev = null;
+        Node next;
+
+        while(curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node left = head;
+        Node right = prev;
+        Node nextL, nextR;
+
+
+        //alternate merging - zig-zag merge
+        while(next != null && right != null){
+            nextL = lext.next;
+            left.next = right;
+            nextR = right.next;
+            right.next = next;
+
+            left = nextL;
+            right = nextR;
+        }
+    }
     public static void main(String args[]){
         // exp217 ll = new exp217();
         // ll.addFirst(2);
@@ -363,14 +402,14 @@ public class exp217 {//linked list
     // removeCycle();
     // System.out.println(isCycle());
     LinkedList ll = new LinkedList();
-    ll.addFirst(1);
-    ll.addFirst(2);
-    ll.addFirst(3);
-    ll.addFirst(4);
-    ll.addFirst(5);
+    ll.addLast(1);
+    ll.addLast(2);
+    ll.addLast(3);
+    ll.addLast(4);
+    ll.addLast(5);
 
     ll.print();
-    ll.head = ll.mergeSort(ll.head);
+    ll.zigZag();
     ll.print();
     }
 }
