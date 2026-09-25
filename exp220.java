@@ -56,6 +56,21 @@ public class exp220 {
         size--;
         return val;
     }
+    public void reverse(){
+        Node curr = head;
+        Node prev = null;
+        Node next;
+
+        while(curr !=null){
+            next = curr.next;
+            curr.next = prev;
+            curr.prev = next;
+
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
     public static void main(String[] args) {
         exp220 dll = new exp220();
         dll.addFirst(3);
@@ -63,10 +78,14 @@ public class exp220 {
         dll.addFirst(1);
 
         dll.print();
-        System.out.println(dll.size);
-
-        dll.removeFirst();
+        dll.reverse();
         dll.print();
-        System.out.println(dll.size);
+
+        // dll.print();
+        // System.out.println(dll.size);
+
+        // dll.removeFirst();
+        // dll.print();
+        // System.out.println(dll.size);
     }
 }
