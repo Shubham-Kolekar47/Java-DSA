@@ -53,7 +53,7 @@ public class exp230 {
         q.add(1);
         q.add(2);
         q.add(3);
-
+        //1-2-3
         while(!q.isEmpty()){
             System.out.println(q.peek());
             q.remove();
