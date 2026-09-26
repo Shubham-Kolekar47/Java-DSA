@@ -19,11 +19,11 @@ public class exp241 {
         Queue q = new Queue();
         q.add(1);
         q.add(2);
-        q.add(3);
+        q.add(3);                                         
 
         System.out.println("peek = "+q.peek());
         System.out.println(q.remove());
-        System.out.println(q.remove());
-        System.out.println(q.remove());
+        System.out.println(q.remove());          
+        System.out.println(q.remove());                                             
     }
 }
