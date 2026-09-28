@@ -22,8 +22,8 @@ public class exp243 {
         maxAct = 1;
         ans.add(activites[0][0]);
         int lastEnd = activites[0][2];
-        for(int i=1; i<end.length; i++){
-            if(activites[i][1]>= lastEnd){
+        for(int i=1; i < end.length; i++){
+            if(activites[i][1] >= lastEnd){
                 //activity select
                 maxAct++;
                 ans.add(activites[i][0]);
