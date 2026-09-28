@@ -15,7 +15,7 @@ public class exp244 {
         Arrays.sort(activites, Comparator.comparingDouble(o -> o[2]));
 
         //end time bsais sorted 
-        int maxAct =0;
+        int maxAct = 0;
         ArrayList<Integer> ans = new ArrayList<>();
 
         //1st activity
