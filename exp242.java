@@ -12,7 +12,7 @@ public class exp242 {
         maxAct = 1;
         ans.add(0);
         int lastEnd = end[0];
-        for(int i=1; i<end.length; i++){
+        for(int i=1; i <end.length; i++){
             if(start[i]>= lastEnd){
                 //activity select
                 maxAct++;
