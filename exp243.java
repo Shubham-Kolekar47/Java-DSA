@@ -7,8 +7,8 @@ public class exp243 {
         int activites[][]= new int[start.length][3];
         for(int i=0; i<start.length;i++){
             activites[i][0]= i;
-            activites[i][1]=start[i];
-            activites[i][2]=end[i];
+            activites[i][1] = start[i];
+            activites[i][2] = end[i];
         }
 
         //lambda fuction -> shortform of big function
