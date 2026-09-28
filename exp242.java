@@ -5,7 +5,7 @@ public class exp242 {
         int end[] = {2,4,6,7,9,9};
 
         //end time bsais sorted 
-        int maxAct =0;
+        int maxAct = 0;
         ArrayList<Integer> ans = new ArrayList<>();
 
         //1st activity
