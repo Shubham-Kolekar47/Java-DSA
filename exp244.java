@@ -33,7 +33,7 @@ public class exp244 {
 
         System.out.println("max activites = " + maxAct);
         for(int i = 0;i < ans.size(); i++){
-            System.out.println("A"+ ans.get(i)+" ");
+            System.out.println("A"+ ans.get(i) +" ");
         }
         System.out.println();
     }
