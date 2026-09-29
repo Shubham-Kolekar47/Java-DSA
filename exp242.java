@@ -12,7 +12,7 @@ public class exp242 {
         maxAct = 1;
         ans.add(0);
         int lastEnd = end[0];
-        for(int i=1; i <end.length; i++){
+        for(int i=1; i<end.length; i++){
             if(start[i]>= lastEnd){
                 //activity select
                 maxAct++;
@@ -22,7 +22,7 @@ public class exp242 {
         }
 
         System.out.println("max activites = " + maxAct);
-        for(int i=0;i<ans.size();i++){
+        for(int i = 0;i<ans.size();i++){
             System.out.println("A"+ ans.get(i)+" ");
         }
         System.out.println();
