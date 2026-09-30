@@ -13,7 +13,7 @@ public class exp201 {
         System.out.println(list.size());
 
         //print the arraylist
-        for(int i=0; i<list.size();i++){
+        for(int i=0; i < list.size();i++){
             System.out.print(list.get(i)+ " ");
         }
         System.out.println();
