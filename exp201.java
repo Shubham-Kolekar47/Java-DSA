@@ -14,7 +14,7 @@ public class exp201 {
 
         //print the arraylist
         for(int i = 0; i < list.size(); i++){
-            System.out.print(list.get(i)+ " ");
+            System.out.print(list.get(i) + " ");
         }
         System.out.println();
     }
