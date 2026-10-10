@@ -19,7 +19,7 @@ public class exp207 {
         System.out.println(mainList);
 
         //nexted loop
-        for(int i = 0; i < mainList.size() ; i++){
+        for(int i = 0 ; i < mainList.size() ; i++){
             ArrayList<Integer> currList = mainList.get(i);
             for(int j =0 ; j <currList.size() ; j++){
                 System.out.println(currList.get(j)+" ");
