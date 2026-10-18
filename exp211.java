@@ -9,7 +9,7 @@ public class exp211 {
                 return true;
             }
             //case2
-            if(list.get(lp)+list.get(rp) < target){
+            if(list.get(lp) + list.get(rp) < target){
                 lp++;
             }else{
                 //case3
