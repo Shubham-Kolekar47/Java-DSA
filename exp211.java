@@ -5,7 +5,7 @@ public class exp211 {
         int rp = list.size()-1;
         while(lp != rp){
             //case1
-            if(list.get(lp)+list.get(rp) == target){
+            if(list.get(lp) + list.get(rp) == target){
                 return true;
             }
             //case2
