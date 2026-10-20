@@ -12,7 +12,7 @@ public class exp243 {
         }
 
         //lambda fuction -> shortform of big function
-        Arrays.sort(activites, Comparator.comparingDouble(o -> o[2]));
+        Arrays.sort(activites, Comparator.comparingDouble(o -> o[2]));+
 
         //end time basis sorted 
         int maxAct =0;
