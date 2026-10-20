@@ -34,7 +34,7 @@ public class exp187 {
         quickSort(arr, 0, n-1);
 
         //print
-        for(int i= 0;i<n;i++){
+        for(int i = 0;i<n;i++){
             System.out.println(arr[i]+" ");
         }
         System.out.println();
