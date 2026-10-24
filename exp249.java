@@ -14,11 +14,11 @@ public class exp249 {
     }
 
     public static void main(String args[]){
-        int jobsInfo[][] = {{4,20} , {1,10}, {1,40} , {1,30}};
+        int jobsInfo[][] = {{4,20} , {1,10} , {1,40} , {1,30}};
 
         ArrayList<Job> jobs = new ArrayList<>();
 
-        for(int i=0; i<jobsInfo.length; i++){
+        for(int i = 0; i<jobsInfo.length; i++){
             jobs.add(new Job(i, jobsInfo[i][0], jobsInfo[i][1]));
         }
 
