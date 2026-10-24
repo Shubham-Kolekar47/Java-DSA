@@ -18,7 +18,7 @@ public class exp249 {
 
         ArrayList<Job> jobs = new ArrayList<>();
 
-        for(int i = 0; i < jobsInfo.length; i++){
+        for(int i = 0 ; i < jobsInfo.length ; i++){
             jobs.add(new Job(i, jobsInfo[i][0], jobsInfo[i][1]));
         }
 
