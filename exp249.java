@@ -4,7 +4,7 @@ public class exp249 {
     static class Job{
         int deadline ;
         int profit ;
-        int id; 
+        int id ; 
 
         public Job(int i,int d,int p){
             id = i;
