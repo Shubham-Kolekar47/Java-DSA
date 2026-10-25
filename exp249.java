@@ -26,7 +26,7 @@ public class exp249 {
 
         ArrayList<Integer> seq = new ArrayList<>();
         int time = 0;
-        for(int i=0;i<jobs.size(); i++){
+        for(int i = 0;i<jobs.size(); i++){
             Job curr = jobs.get(i);
             if(curr.deadline > time){
                 seq.add(curr.id);
