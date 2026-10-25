@@ -2,8 +2,8 @@ import java.util.*;
 public class exp249 {
 
     static class Job{
-        int deadline;
-        int profit;
+        int deadline ;
+        int profit ;
         int id; 
 
         public Job(int i,int d,int p){
