@@ -21,7 +21,7 @@ public class exp248 {
 
         System.out.println("total (min) coins used = " + countOfCoins);
 
-        for(int i=0;i<ans.size();i++){
+        for(int i=0;  i<ans.size();i++){
             System.out.println(ans.get(i)+" ");
         }
         System.out.println(); 
