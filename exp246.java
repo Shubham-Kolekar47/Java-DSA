@@ -9,7 +9,7 @@ public class exp246 {
 
     int minDiff = 0;
 
-    for(int  i = 0; i<A.length; i++){
+    for(int  i = 0; i < A.length; i++){
         minDiff += Math.abs(A[i] - B[i]);
     }
     
